@@ -1,0 +1,35 @@
+{
+  "name": "svelte-less-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode=production --progress",
+    "start": "webpack-dev-server --mode=development"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.16.3",
+    "@sb1/ffe-core": "^19.4.0",
+    "core-js": "3.21.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.16.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.16.0",
+    "@babel/plugin-transform-runtime": "^7.16.4",
+    "@babel/plugin-transform-spread": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "style-loader": "^3.3.1",
+    "svelte": "^3.44.2",
+    "svelte-loader": "^3.1.2",
+    "svelte-preprocess": "^4.10.4",
+    "webpack": "^5.64.2",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0"
+  }
+}
